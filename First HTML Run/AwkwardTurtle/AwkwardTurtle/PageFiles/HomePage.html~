@@ -1,0 +1,91 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/basic.css" />
+<title>Home Page</title>
+<meta HTTP-EQUIV="REFRESH" content="0;url=badassturtle.html">
+
+
+
+</head>
+
+<body>
+<div class="bigassdiv">
+<script type="text/javascript" src="jQuery/jquery-1.7.1.js"></script>
+
+
+
+<div class="navbar navbar-fixed-top">
+  	<div class="navbar-inner">
+   	 	<div class="container">
+   	 		<a class="brand" href="HomePage.html">
+  				Awkward Turtle
+			  </a>
+      		<ul class="nav">
+  	 			<li class = "active">
+       				<a href="HomePage.html"></i>Home</a>
+      			</li>
+      			<li>
+      				<a href="Locations.html" class="">Locations</a>
+      			</li>
+  	  			<li>
+  	  				<a href="Events.html" class="">Events</a>
+  	  			</li>
+  	  			<li>
+  	  				<a href="Profiles.html" class="">Profile</a>
+  	  			</li>
+            <li>
+              <a href="Signup.html" class="disappear">Sign Up</a>
+            </li>
+  	  			<form class="navbar-search pull-left">
+  					<input type="text" class="search-query" placeholder="Search">
+			     	</form>
+    		</ul>
+        <form class="form-inline disappear">  <input type="text" class="input-small login" placeholder="Email">
+          <input type="password" class="input-small login" placeholder="Password">
+          <button type="submit" class="btn clicker">Log In</button>
+        </form>
+       </div>
+  	</div>
+</div>
+
+
+
+<div class="secondary">
+<img class="logo" src="Images/Turtle.gif"></img>
+<ul class="nav nav-list">
+  <li class="nav-header">
+    Profile's Name Here
+  </li>
+  <li class="active">
+    <a href="HomePage.html"><i class="icon-home icon-white"></i>Home</a>
+  </li>
+  <li>
+    <a href="Profiles.html"><img class="otherpics" src="img/otherpics_black/user_black.png"></img>User's Profile</a>
+  </li>
+  <li>
+    <a href='Subpages/Eventspages/Myevents.html'><img class="otherpics" src="img/otherpics_black/calendar_black.png"></img>User's Events</a>
+  </li>
+  <li>
+    <a href='Subpages/Profilespages/Matches.html'><img class="otherpics" src="img/otherpics_black/user_add_black.png"></img>Matches</a>
+  </li>
+  <li>
+    <a href='Subpages/Locationspages/Checkin.html'><img class="otherpics" src="img/otherpics_black/map_marker_black.png"></img>Check-in</a>
+  </li>
+  <li>
+    <a href='Subpages/Locationspages/Map.html'><img class="otherpics" src="img/otherpics_black/compass_black.png"></img>See Map</a>
+  </li>
+</ul>
+</div>
+
+
+<div class = "bc">
+<ul class="breadcrumb">
+  <li><a href="HomePage.html" class="active">Home</a> <span class="divider">/</span></li>
+  <li class="active">You are here</li>
+</ul>
+
+
+
+</div>
+</div>
+</body>

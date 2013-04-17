@@ -1,0 +1,188 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/basic.css" />
+<title>Sign Up</title>
+</head>
+
+<body>
+<div class="bigassdiv">
+
+<script type="text/javascript" src="jQuery/jquery-1.7.1.js"></script>
+
+
+<div class="navbar navbar-fixed-top">
+  	<div class="navbar-inner">
+   	 	<div class="container">
+   	 		<a class="brand" href="HomePage.html">
+  				Awkward Turtle
+			  </a>
+      		<ul class="nav">
+  	 			<li>
+       				<a href="HomePage.html"></i>Home</a>
+      			</li>
+      			<li>
+      				<a href="Locations.html" class="">Locations</a>
+      			</li>
+  	  			<li>
+  	  				<a href="Events.html" class="">Events</a>
+  	  			</li>
+  	  			<li>
+  	  				<a href="Profiles.html" class="">Profile</a>
+  	  			</li>
+            <li class="active">
+              <a href="Signup.html" class="">Sign Up</a>
+            </li>
+  	  			<form class="navbar-search pull-left">
+  					<input type="text" class="search-query" placeholder="Search">
+			     	</form>
+    		</ul>
+       	</div>
+  	</div>
+</div>
+
+<div class="bc">
+<ul class="breadcrumb">
+  <li><a href="HomePage.html">Home</a> <span class="divider">/</span></li>
+  <li><a href="Signup.html">Sign-up Page 1</a><span class="divider">/</span></li>
+  <li class="active">You are here</li>
+</ul>
+</div>
+
+<div class="secondary">
+<img class="logo" src="Images/Turtle.gif"></img>
+<ul class="nav nav-list">
+  <li class="nav-header">
+    Edit Something You Input Earlier
+  </li>
+  <li class="active">
+    <a href="Signup.html">Basic Information</a>
+  </li>
+  <li>
+    <a href="Subpages/Signuppages/Moreinfo.html"></img>About You</a>
+  </li>
+  <li>
+    <a href='Subpages/Signuppages/Priorities.html'></img>Your Priorities</a>
+  </li>
+  <li>
+    <a href='Subpages/Signuppages/Picture.html'></img>Upload a Picture</a>
+  </li>
+</ul>
+</div>
+
+
+
+<div class = "signup">
+<form action="registration.php" method="post">
+
+<div class="progress progress-danger progress-striped active">
+  <div class="bar" style="width: 25%;"></div>
+</div>
+
+<div class="signup-body">
+<input type="text" class="input-medium" placeholder="First Name"></input><span class="help-inline">Enter Your First Name</span>
+</div>
+
+<div class="signup-body">
+<input type="text" class="input-medium" placeholder="Last Name"></input><span class="help-inline">Enter Your Last Name</span>
+</div>
+
+<div class= "signup-body">
+<input type="email" class="input-medium" placeholder="Email"></input><span class="help-inline">Enter A Valid E-mail Address</span>
+</div>
+
+<div class = "signup-body">
+<input type="password" class="input-medium" placeholder="Password"></input><span class="help-inline">Enter Your Password</span>
+</div>
+
+<div class="signup-body">
+<input type="password" class="input-medium" placeholder="Confirm Password"></input><span class="help-inline">Re-enter Your Password</span>
+</div>
+
+
+<div class="signup-body">
+  <div class="controls">
+    <select id="select03">
+      <option>1994</option>
+      <option>1993</option>
+      <option>1992</option>
+      <option>1991</option>
+      <option>1990</option>
+      <option>1989</option>
+      <option>1988</option>
+      <option>1987</option>
+      <option>1986</option>
+      <option>1985</option>
+    </select>
+    <span class="help-inline">Select Your Year of Birth</span>
+  </div>
+</div>
+
+<div class="signup-body">
+  <div class="controls">
+    <select id="select01">
+      <option>January</option>
+      <option>February</option>
+      <option>March</option>
+      <option>April</option>
+      <option>May</option>
+      <option>June</option>
+      <option>July</option>
+      <option>August</option>
+      <option>September</option>
+      <option>October</option>
+      <option>November</option>
+      <option>December</option>
+    </select>
+    <span class="help-inline">Select The Month</span>
+  </div>
+</div>
+
+<div class="signup-body">
+  <div class="controls">
+    <select id="select02">
+      <option>01</option>
+      <option>02</option>
+      <option>03</option>
+      <option>04</option>
+      <option>05</option>
+      <option>06</option>
+      <option>07</option>
+      <option>08</option>
+      <option>09</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+    </select>
+    <span class="help-inline">Select The Day</span>
+  </div>
+
+  <div class="signup-btn">
+  <form method="link" action="Subpages/Signuppages/Moreinfo.html">
+    <input type="submit" value = "Continue" class="btn btn-small btn-primary">
+  </form>
+  </div>
+</div>
+
+</form>
+</div>
+</div>
+</body>
